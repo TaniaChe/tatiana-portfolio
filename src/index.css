@@ -22,7 +22,7 @@ code {
   --color-bg: #8f8e8e;
   --color-bg-variant: #404348;
   --color-primary: #ffb810;
-  --color-primary-variant: ;
+  --color-primary-variant: #8f8e8e;
   --color-white: #fff;
   --color-light: #c89c76;
 
@@ -75,7 +75,7 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 section > h2,
