@@ -1,6 +1,51 @@
 import React from "react";
-// import "./portfolio.css";
+import "./navbar.css";
+import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineUser } from "react-icons/ai";
+import { MdDeveloperMode } from "react-icons/md";
+import { RiContactsBookLine } from "react-icons/ri";
+import { MdDesignServices } from "react-icons/md";
+import { useState } from "react";
 
 export default function Navbar() {
-  return <div>nav</div>;
+  const [activeNavbar, setActiveNavbar] = useState("#home");
+  return (
+    <nav>
+      <a
+        href="#home"
+        onClick={() => setActiveNavbar("#home")}
+        className={activeNavbar === "#home" ? "active" : ""}
+      >
+        <AiOutlineHome />
+      </a>
+      <a
+        href="#about"
+        onClick={() => setActiveNavbar("#about")}
+        className={activeNavbar === "#about" ? "active" : ""}
+      >
+        <AiOutlineUser />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNavbar("#experience")}
+        className={activeNavbar === "#experience" ? "active" : ""}
+      >
+        <MdDeveloperMode />
+      </a>
+      <a
+        href="#services"
+        onClick={() => setActiveNavbar("#services")}
+        className={activeNavbar === "#services" ? "active" : ""}
+      >
+        <MdDesignServices />
+      </a>
+      <a
+        href="#contacts"
+        onClick={() => setActiveNavbar("#contacts")}
+        className={activeNavbar === "#contacts" ? "active" : ""}
+      >
+        <RiContactsBookLine />
+      </a>
+    </nav>
+  );
 }
