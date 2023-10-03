@@ -30,14 +30,14 @@ export default function Navbar() {
         onClick={() => setActiveNavbar("#experience")}
         className={activeNavbar === "#experience" ? "active" : ""}
       >
-        <MdDeveloperMode />
+        <MdDesignServices />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNavbar("#services")}
-        className={activeNavbar === "#services" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNavbar("#portfolio")}
+        className={activeNavbar === "#portfolio" ? "active" : ""}
       >
-        <MdDesignServices />
+        <MdDeveloperMode />
       </a>
       <a
         href="#contacts"
