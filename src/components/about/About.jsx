@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <RiAwardLine className="about__icon" />
               <h5>Experience</h5>
-              <small>1,5 Years Working</small>
+              <small>2+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -31,16 +31,18 @@ const About = () => {
             <article className="about__card">
               <AiOutlineFundProjectionScreen className="about__icon" />
               <h5>Projects</h5>
-              <small>15+ Completed</small>
+              <small>30+ Completed</small>
             </article>
           </div>
           <p>
-            I am a self-motivated, effective, and professional front-end
-            engineer with over 1.5 years of experience specializing in
-            JavaScript, React & NodeJS. I am open to learning & interested in
+            I am a self-motivated, effective, and professional software
+            engineer with 2 years of experience specializing in
+            JavaScript, C#, React & NodeJS. I am open to learning & interested in
             adding additional languages and skills to my existing knowledge. I
             am a dedicated team player who believes that the collective effort
             of a skilled and motivated group can achieve remarkable results.
+				<br/>
+				Thank you for visiting my website!
           </p>
 			 <a href="#contacts" className="btn btn-pimary">Contact Me</a>
         </div>
