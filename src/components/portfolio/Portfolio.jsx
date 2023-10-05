@@ -1,28 +1,31 @@
 import React from "react";
 import "./portfolio.css";
 import IMG from "../../assets/coming-soon.jpeg";
+import IMG1 from "../../assets/recipes.png";
+import IMG2 from '../../assets/weather-app.png'
+import IMG3 from "../../assets/book-list.png";
 
 const data = [
   {
     id: 1,
-    image: IMG,
-    title: "This is my work",
+    image: IMG1,
+    title: "Worldwide Recipes",
     github: "https://github.com/TaniaChe/react-router-recipes",
     demo: "https://taniache.github.io/react-router-recipes/",
   },
   {
     id: 2,
-    image: IMG,
-    title: "This is my work",
-    github: "https://github.com/TaniaChe/react-router-recipes",
-    demo: "https://taniache.github.io/react-router-recipes/",
+    image: IMG2,
+    title: "Weather App",
+    github: "https://github.com/TaniaChe/weather-app",
+    demo: "https://weather-app-tatiana.netlify.app/",
   },
   {
     id: 3,
-    image: IMG,
-    title: "This is my work",
-    github: "https://github.com/TaniaChe/react-router-recipes",
-    demo: "https://taniache.github.io/react-router-recipes/",
+    image: IMG3,
+    title: "Book List Project",
+    github: "https://github.com/TaniaChe/book-list",
+    demo: "https://book-library-list.netlify.app/",
   },
   {
     id: 4,
