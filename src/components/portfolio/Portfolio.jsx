@@ -2,8 +2,9 @@ import React from "react";
 import "./portfolio.css";
 import IMG from "../../assets/coming-soon.jpeg";
 import IMG1 from "../../assets/recipes.png";
-import IMG2 from '../../assets/weather-app.png'
+import IMG2 from "../../assets/weather-app.png";
 import IMG3 from "../../assets/book-list.png";
+import IMG4 from "../../assets/calculator.png";
 
 const data = [
   {
@@ -29,10 +30,10 @@ const data = [
   },
   {
     id: 4,
-    image: IMG,
-    title: "This is my work",
-    github: "https://github.com/TaniaChe/react-router-recipes",
-    demo: "https://taniache.github.io/react-router-recipes/",
+    image: IMG4,
+    title: "Calculator",
+    github: "https://github.com/TaniaChe/Calculator_JavaScript",
+    demo: "https://calculator-javascript-tatiana.netlify.app/",
   },
   {
     id: 5,
